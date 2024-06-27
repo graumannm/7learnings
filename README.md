@@ -1,6 +1,9 @@
 # 7Learnings Data Science Challenge
 This repository contains a notebook for the data science coding challenge for 7Learnings. The dataset is a time series dataset with wheather data from a number of weather stations. The task is to predict whether it will snow tomorrow. 
 
+# Approach
+The approach was to extract the data using Big Query, clean and prepare it for model training using pandas and then train and evaluate the model using a simple logistic regression model as a baseline model using the sklearn library in Python. In 'Future Directions' I discuss potential techniques to improve model performance.
+
 # Overview
 
 ### Installations
@@ -35,6 +38,10 @@ I am using a simple logistic regression as a baseline model.
 
 ### Testing on tomorrow's data
 
-# Conclusion
+### Conclusion
+Overall conclusions from results
+
+### Future directions
+Possibilities on how to improve the results.
 
 
